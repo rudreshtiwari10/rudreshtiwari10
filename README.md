@@ -44,14 +44,10 @@ Welcome to my GitHub profile! I'm a passionate software developer with hands-on 
 
 I'm always open to collaborating on interesting projects or discussing new ideas. Feel free to reach out to me!
 
-<p align="left">
-<a href="[https://linkedin.com/in/rudreshtiwari10](https://linkedin.com/in/rudreshtiwari10)" target="_blank">
-  <img src="[https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)" alt="LinkedIn" />
-</a>
-<a href="mailto:rudraprataptiwari786@gmail.com">
-  <img src="[https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)" alt="Email" />
-</a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/rudreshtiwari10](https://www.linkedin.com/in/rudresh-tiwari-99bb57297/))
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rudraprataptiwari786@gmail.com)
+
+---
 
 ---
 
