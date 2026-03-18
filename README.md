@@ -1,4 +1,4 @@
-\<h1 align="center"\>Hi there, I'm Rudresh Tiwari\! 👋\</h1\>
+<h1> align="center"\>Hi there, I'm Rudresh Tiwari\! 👋</h1\>
 
 \<p align="center"\>
 🌍 Based in India | 💡 Passionate about building innovative, scalable solutions
