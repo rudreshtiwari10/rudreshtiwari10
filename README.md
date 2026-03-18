@@ -35,7 +35,7 @@ I focus on solving **complex engineering challenges**: optimizing data pipelines
 
 ### 🚀 Featured Projects
 
-#### WelthWest – AI-Driven Stock Market Platform [![WelthWest](https://img.icons8.com/fluency/48/stock-market.png)](https://welthwest.com/)
+#### WelthWest – AI-Driven Stock Market Platform [![Visit Site](https://img.shields.io/badge/Visit-Site-0052CC?style=flat-square&logo=googlechrome&logoColor=white)](https://welthwest.com/)
 * **Backtesting Engine:** Fetches raw OHLCV data via yfinance and computes 10+ technical indicators on-the-fly using the ta library. Generates Buy/Sell signals with a custom “voting mechanism” and applies strict risk management (ATR-based stops, drawdown limits). Monte Carlo simulations validate strategies across multiple market conditions.
 * **AI Assistant:** FinanceOrchestrator + NextGenAIOrchestrator routes queries via Python-based intent detection (regex + keyword mapping) before sending structured prompts to OpenRouter (Mistral-7B) or Google Gemini APIs. Handles stock quotes, screeners, technical analysis, and news formatting with precise context blocks.
 * **Market Regime Management:** CompositeScorer classifies market states into five regimes (e.g., bull_low_vol, bear_high_vol) and adjusts stock scores dynamically using weighted heuristics (RSI, MACD, ROC, volume).
@@ -44,7 +44,7 @@ I focus on solving **complex engineering challenges**: optimizing data pipelines
 
 ⸻
 
-#### BSG Infra – Full-Stack Equipment Rental Platform [![BSG Infra](https://img.icons8.com/fluency/48/construction.png)](https://bsginfra.com/)
+#### BSG Infra – Full-Stack Equipment Rental Platform [![Visit Site](https://img.shields.io/badge/Visit-Site-FF9900?style=flat-square&logo=googlechrome&logoColor=white)](https://bsginfra.com/)
 * **Inventory Management:** Equipment availability tracked via blockedDates arrays and availableUnits counters. Ensures multi-unit booking consistency with rigorous validation (date overlap, units > 0, availability flags). Race conditions theoretically possible due to lack of DB transactions, but mitigated by service-layer logic.
 * **Business Logic:** All complex rules abstracted into modular services (availability.service.js, pricing.service.js, geolocation.service.js). Handles dynamic pricing (daily/week/month, regional multipliers), smart discounts, insurance/operator costs, and delivery radius checks.
 * **API Design:** Highly structured RESTful MVC architecture with thin controllers and service-oriented design. Standardized responses enable easy client-side integration.
@@ -52,7 +52,7 @@ I focus on solving **complex engineering challenges**: optimizing data pipelines
 
 ⸻
 
-#### Executive Portfolio – Custom CMS + AI Assistant Platform [![Executive Portfolio](https://img.icons8.com/fluency/48/portfolio.png)](https://executive-portfolio-sandy.vercel.app/)
+#### Executive Portfolio – Custom CMS + AI Assistant Platform [![Live Demo](https://img.shields.io/badge/Live-Demo-000000?style=flat-square&logo=vercel&logoColor=white)](https://executive-portfolio-sandy.vercel.app/)
 * **Messaging System:** Standard REST endpoints (POST /api/messages/submit, GET /api/messages/admin/all) handle user queries; no WebSockets or SSE streaming used.
 * **AI Integration:** Backend consumes Google Generative AI via POST /api/ceo-chat, returns full response after completion.
 * **CMS:** Strictly structured Mongoose schemas for Blog, AboutSection, Service, and other content types; no unstructured Mixed fields.
@@ -60,11 +60,10 @@ I focus on solving **complex engineering challenges**: optimizing data pipelines
 
 ⸻
 
-#### Explore Indian Islands – Vacation Planning Web App [![Explore Indian Islands](https://img.icons8.com/fluency/48/island.png)](https://exploreindianislands-bn1k1ulvx-rudresh-tiwaris-projects.vercel.app/)
+#### Explore Indian Islands – Vacation Planning Web App [![Live Demo](https://img.shields.io/badge/Live-Demo-000000?style=flat-square&logo=vercel&logoColor=white)](https://exploreindianislands-bn1k1ulvx-rudresh-tiwaris-projects.vercel.app/)
 * **Data & Queries:** MERN-based app with structured geo-data stored in MongoDB. Filtering and search executed server-side for performance.
 * **UI/UX:** Clean React frontend with intuitive discovery workflows for islands in India.
 * **Architecture:** RESTful APIs with Node.js backend and MongoDB; designed for scaling as location dataset grows.
-* 
 ### 🌟 Let's Connect!
 
 I'm always open to collaborating on interesting projects or discussing new ideas. Feel free to reach out to me!
