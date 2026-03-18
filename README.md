@@ -1,6 +1,6 @@
 <h1 align="center">Hi there, I'm Rudresh Tiwari! 👋</h1>
 <p align="center">
-  <i>Dynamic Full Stack Developer | Java | Python | MERN Stack | AI Integrations</i>
+  <i>Full Stack Developer | MERN Stack | AI Integrations</i>
 </p>
 <p align="center">
   🌍 Based in India | 💡 Passionate about building innovative, scalable solutions
@@ -46,6 +46,7 @@ I'm always open to collaborating on interesting projects or discussing new ideas
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rudresh-tiwari-99bb57297/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rudraprataptiwari786@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=googlechrome&logoColor=white)](https://rudreshtiwari10.github.io/Portfolio/)
 
 ---
 
