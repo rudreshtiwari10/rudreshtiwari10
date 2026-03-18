@@ -34,39 +34,37 @@ I focus on solving **complex engineering challenges**: optimizing data pipelines
 ---
 
 ### 🚀 Featured Projects
-WelthWest – AI-Driven Stock Market Platform [![WelthWest](https://img.icons8.com/fluency/48/000000/stock-market.png)](https://github.com/rudreshtiwari10/WelthWest)
 
-	•	Backtesting Engine: Fetches raw OHLCV data via yfinance and computes 10+ technical indicators on-the-fly using the ta library. Generates Buy/Sell signals with a custom “voting mechanism” and applies strict risk management (ATR-based stops, drawdown limits). Monte Carlo simulations validate strategies across multiple market conditions.
-	•	AI Assistant: FinanceOrchestrator + NextGenAIOrchestrator routes queries via Python-based intent detection (regex + keyword mapping) before sending structured prompts to OpenRouter (Mistral-7B) or Google Gemini APIs. Handles stock quotes, screeners, technical analysis, and news formatting with precise context blocks.
-	•	Market Regime Management: CompositeScorer classifies market states into five regimes (e.g., bull_low_vol, bear_high_vol) and adjusts stock scores dynamically using weighted heuristics (RSI, MACD, ROC, volume).
-	•	Performance & Scaling: Caching via Redis + Flask-Caching + cachetools. Symbol resolution accelerated with _nse_symbol_cache.json. Disk I/O optimized to prevent EC2 storage issues.
-	•	Architecture: Hybrid microservices. Node.js frontend repos separate from monolithic Flask backend. Risk Management runs in an isolated Flask microservice, maintaining independent CORS and middleware logic.
-
-⸻
-
-BSG Infra – Full-Stack Equipment Rental Platform [![BSG Infra](https://img.icons8.com/fluency/48/000000/construction.png)](https://github.com/rudreshtiwari10/BSG-Infra)
-	•	Inventory Management: Equipment availability tracked via blockedDates arrays and availableUnits counters. Ensures multi-unit booking consistency with rigorous validation (date overlap, units > 0, availability flags). Race conditions theoretically possible due to lack of DB transactions, but mitigated by service-layer logic.
-	•	Business Logic: All complex rules abstracted into modular services (availability.service.js, pricing.service.js, geolocation.service.js). Handles dynamic pricing (daily/week/month, regional multipliers), smart discounts, insurance/operator costs, and delivery radius checks.
-	•	API Design: Highly structured RESTful MVC architecture with thin controllers and service-oriented design. Standardized responses enable easy client-side integration.
-	•	Payments: Database prepared for Stripe/Razorpay/PayU integration with escrow/refunds/event timeline, but live payment processing not yet implemented.
+#### WelthWest – AI-Driven Stock Market Platform [![WelthWest](https://img.icons8.com/fluency/48/stock-market.png)](https://welthwest.com/)
+* **Backtesting Engine:** Fetches raw OHLCV data via yfinance and computes 10+ technical indicators on-the-fly using the ta library. Generates Buy/Sell signals with a custom “voting mechanism” and applies strict risk management (ATR-based stops, drawdown limits). Monte Carlo simulations validate strategies across multiple market conditions.
+* **AI Assistant:** FinanceOrchestrator + NextGenAIOrchestrator routes queries via Python-based intent detection (regex + keyword mapping) before sending structured prompts to OpenRouter (Mistral-7B) or Google Gemini APIs. Handles stock quotes, screeners, technical analysis, and news formatting with precise context blocks.
+* **Market Regime Management:** CompositeScorer classifies market states into five regimes (e.g., bull_low_vol, bear_high_vol) and adjusts stock scores dynamically using weighted heuristics (RSI, MACD, ROC, volume).
+* **Performance & Scaling:** Caching via Redis + Flask-Caching + cachetools. Symbol resolution accelerated with _nse_symbol_cache.json. Disk I/O optimized to prevent EC2 storage issues.
+* **Architecture:** Hybrid microservices. Node.js frontend repos separate from monolithic Flask backend. Risk Management runs in an isolated Flask microservice, maintaining independent CORS and middleware logic.
 
 ⸻
 
-Executive Portfolio – Custom CMS + AI Assistant Platform [![Executive Portfolio](https://img.icons8.com/fluency/48/000000/portfolio.png)](https://github.com/rudreshtiwari10/Executive-Portfolio)
-	•	Messaging System: Standard REST endpoints (POST /api/messages/submit, GET /api/messages/admin/all) handle user queries; no WebSockets or SSE streaming used.
-	•	AI Integration: Backend consumes Google Generative AI via POST /api/ceo-chat, returns full response after completion.
-	•	CMS: Strictly structured Mongoose schemas for Blog, AboutSection, Service, and other content types; no unstructured Mixed fields.
-	•	Auth & Roles: JWT + bcryptjs with admin and superadmin roles. Middlewares enforce role-based route access.
+#### BSG Infra – Full-Stack Equipment Rental Platform [![BSG Infra](https://img.icons8.com/fluency/48/construction.png)](https://bsginfra.com/)
+* **Inventory Management:** Equipment availability tracked via blockedDates arrays and availableUnits counters. Ensures multi-unit booking consistency with rigorous validation (date overlap, units > 0, availability flags). Race conditions theoretically possible due to lack of DB transactions, but mitigated by service-layer logic.
+* **Business Logic:** All complex rules abstracted into modular services (availability.service.js, pricing.service.js, geolocation.service.js). Handles dynamic pricing (daily/week/month, regional multipliers), smart discounts, insurance/operator costs, and delivery radius checks.
+* **API Design:** Highly structured RESTful MVC architecture with thin controllers and service-oriented design. Standardized responses enable easy client-side integration.
+* **Payments:** Database prepared for Stripe/Razorpay/PayU integration with escrow/refunds/event timeline, but live payment processing not yet implemented.
 
 ⸻
 
-Explore Indian Islands – Vacation Planning Web App [![Explore Indian Islands](https://img.icons8.com/fluency/48/000000/island.png)](https://github.com/rudreshtiwari10/exploreindianislandsfrontend)
-	•	Data & Queries: MERN-based app with structured geo-data stored in MongoDB. Filtering and search executed server-side for performance.
-	•	UI/UX: Clean React frontend with intuitive discovery workflows for islands in India.
-	•	Architecture: RESTful APIs with Node.js backend and MongoDB; designed for scaling as location dataset grows.
+#### Executive Portfolio – Custom CMS + AI Assistant Platform [![Executive Portfolio](https://img.icons8.com/fluency/48/portfolio.png)](https://executive-portfolio-sandy.vercel.app/)
+* **Messaging System:** Standard REST endpoints (POST /api/messages/submit, GET /api/messages/admin/all) handle user queries; no WebSockets or SSE streaming used.
+* **AI Integration:** Backend consumes Google Generative AI via POST /api/ceo-chat, returns full response after completion.
+* **CMS:** Strictly structured Mongoose schemas for Blog, AboutSection, Service, and other content types; no unstructured Mixed fields.
+* **Auth & Roles:** JWT + bcryptjs with admin and superadmin roles. Middlewares enforce role-based route access.
 
 ⸻
 
+#### Explore Indian Islands – Vacation Planning Web App [![Explore Indian Islands](https://img.icons8.com/fluency/48/island.png)](https://exploreindianislands-bn1k1ulvx-rudresh-tiwaris-projects.vercel.app/)
+* **Data & Queries:** MERN-based app with structured geo-data stored in MongoDB. Filtering and search executed server-side for performance.
+* **UI/UX:** Clean React frontend with intuitive discovery workflows for islands in India.
+* **Architecture:** RESTful APIs with Node.js backend and MongoDB; designed for scaling as location dataset grows.
+* 
 ### 🌟 Let's Connect!
 
 I'm always open to collaborating on interesting projects or discussing new ideas. Feel free to reach out to me!
